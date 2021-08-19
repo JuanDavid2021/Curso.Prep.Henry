@@ -78,12 +78,12 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-}
+if (num>50) {return true;} else {return false;}}
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-}
+return x%y};
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
@@ -101,17 +101,17 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-return Math.pow(num,2)}
+return Math.pow(num,2);}
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-}
+return Math.pow(num,3);}
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-}
+return Math.pow(num,exponent);}
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
@@ -126,7 +126,7 @@ return Math.ceil (num);}
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-}
+return Math.random();}
 
 function esPositivo(numero) {
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
@@ -165,13 +165,13 @@ return (alto*ancho)}
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-}
+return lado*4;}
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-
+return (base*altura)/2;
 }
 
 
@@ -188,12 +188,13 @@ function esVocal(letra){
   //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   //Escribe tu código aquí
-if (letra==="a") {return "es vocal"}
-else if (letra==="e") {return " es vocal"}
-else if (letra==="i") {return "es vocal"}
-else if (letra==="o") {return "es vocal"}
-else if (letra==="u") {return "es vocal"}
-else if (letra.length>1) {return "Dato incorrecto"}}
+if (letra==="a") {return "Es vocal"}
+else if (letra==="e") {return "Es vocal"}
+else if (letra==="i") {return "Es vocal"}
+else if (letra==="o") {return "Es vocal"}
+else if (letra==="u") {return "Es vocal"}
+else if (letra.length>1) {return "Dato incorrecto"}
+else {return "Dato incorrecto"}}
 
 
 
