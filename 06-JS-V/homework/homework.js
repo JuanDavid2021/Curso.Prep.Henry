@@ -84,9 +84,9 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
   //Devolver la nueva persona creada
 
-const nuevap=new Persona(nombre, apellido, edad, dir)
+const nuevaper=new Persona(nombre, apellido, edad, dir)
 
-return nuevap;
+return nuevaper;
 }
   
 function agregarMetodo() {
