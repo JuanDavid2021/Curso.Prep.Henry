@@ -47,8 +47,8 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // Tu código:
 
 
-const resultado=objetoMisterioso.numeroMisterioso * 5
-return resultado;
+const result=objetoMisterioso.numeroMisterioso * 5
+return result;
 
 }
 
